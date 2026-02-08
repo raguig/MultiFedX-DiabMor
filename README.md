@@ -19,31 +19,6 @@ This project demonstrates a **federated learning (FL) system** trained on distri
 - **Realistic Scenario:** Model is robust to **heterogeneous client data**, simulating hospitals with different patient populations.
 - **Scientific Contribution:** Combines **FL + DP + XAI** in a single pipeline and performs **non-IID analysis**, demonstrating **practical impact of privacy-preserving AI**.
 
----
-
-## Repository Structure
-
-# 🩺 Privacy-Preserving Federated Learning for Diabetes Prediction with Explainable AI
-
-## Project Overview
-
-This project demonstrates a **federated learning (FL) system** trained on distributed healthcare datasets for **diabetes risk prediction**, while ensuring **patient privacy** via **Differential Privacy (DP-SGD)** and providing **model transparency** through **Explainable AI (SHAP)**.
-
-**Key Goals:**
-- Predict diabetes risk across distributed medical datasets without centralizing sensitive data.
-- Guarantee patient privacy using differential privacy.
-- Explain individual predictions with SHAP to help clinical decision-making.
-- Evaluate impact of **non-IID data distributions** (realistic healthcare scenarios) on model performance.
-
----
-
-## Impact and Significance
-
-- **Healthcare Privacy:** Federated learning + DP allows multiple clinics to collaborate **without sharing raw patient data**, fully compliant with **HIPAA/GDPR** regulations.
-- **Explainable Predictions:** Doctors can see which features contribute most to a prediction (e.g., glucose levels, BMI, age).
-- **Realistic Scenario:** Model is robust to **heterogeneous client data**, simulating hospitals with different patient populations.
-- **Scientific Contribution:** Combines **FL + DP + XAI** in a single pipeline and performs **non-IID analysis**, demonstrating **practical impact of privacy-preserving AI**.
-
 
 
 
