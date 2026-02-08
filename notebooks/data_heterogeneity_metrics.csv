@@ -1,0 +1,5 @@
+Partition Type,α,Avg Divergence,Max Divergence,Min Client Size,Max Client Size
+Dirichlet (α=10.0),10.0,0.0596,0.1242,80,123
+Dirichlet (α=0.5),0.5,0.3151,0.5774,21,177
+Dirichlet (α=0.1),0.1,0.3520,0.7067,2,280
+Standard Random Split,IID,0.0275,0.0523,97,98
