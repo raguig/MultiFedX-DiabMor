@@ -16,7 +16,7 @@ from typing import Dict, List, Tuple
 # ── Load and preprocess data ──
 @st.cache_data
 def load_data():
-    df = pd.read_csv("./diabetes.csv")
+    df = pd.read_csv("diabetes.csv")
     X = df.drop('Outcome', axis=1).values
     
     scaler = StandardScaler()
