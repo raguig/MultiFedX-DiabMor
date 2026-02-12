@@ -1,4 +1,4 @@
-# 🩺 MultiFedX-DiabMor — Privacy-Preserving Federated Learning for Diabetes Prediction with Explainable AI
+# 🩺 MultiFedX-DiabMor - Privacy-Preserving Federated Learning for Diabetes Prediction with Explainable AI
 
 <div align="center">
 
@@ -634,38 +634,6 @@ streamlit run diabetes_demo.py
 
 ---
 
-## 📚 References & Further Reading
-
-### Core Papers
-
-1. **McMahan et al. (2016)** — *Communication-Efficient Learning of Deep Networks from Decentralized Data*
-   → The foundational FedAvg algorithm
-   [[arXiv:1602.05629](https://arxiv.org/abs/1602.05629)]
-
-2. **Abadi et al. (2016)** — *Deep Learning with Differential Privacy*
-   → DP-SGD mechanism used in this project
-   [[arXiv:1607.00133](https://arxiv.org/abs/1607.00133)]
-
-3. **Lundberg & Lee (2017)** — *A Unified Approach to Interpreting Model Predictions*
-   → SHAP / Shapley value theory
-   [[arXiv:1705.07874](https://arxiv.org/abs/1705.07874)]
-
-4. **Bach et al. (2015)** — *On Pixel-wise Explanations for Non-Linear Classifier Decisions by Layer-wise Relevance Propagation*
-   → LRP method
-   [[arXiv:1512.02479](https://arxiv.org/abs/1512.02479)]
-
-### Implementation Libraries
-
-| Library | Purpose | Link |
-|---------|---------|------|
-| **Flower** | Federated learning framework | [flower.ai](https://flower.ai/) |
-| **Opacus** | Differential privacy for PyTorch | [opacus.ai](https://opacus.ai/) |
-| **SHAP** | Shapley value explanations | [shap.readthedocs.io](https://shap.readthedocs.io/) |
-| **Streamlit** | Interactive web application | [streamlit.io](https://streamlit.io/) |
-| **PyTorch** | Deep learning framework | [pytorch.org](https://pytorch.org/) |
-
----
-
 ## 🏆 Project Achievements
 
 | Achievement | Details |
@@ -708,36 +676,6 @@ streamlit run diabetes_demo.py
 
 ---
 
-## 🙏 Acknowledgments
 
-- **Pima Indians Diabetes Dataset** — UCI Machine Learning Repository / Kaggle
-- **Flower Framework** — Adap, Inc. & open-source contributors
-- **Opacus Library** — Meta AI
-- **SHAP** — Scott Lundberg & contributors
-- **Healthcare AI Community** — For ongoing dialogue on responsible AI in medicine
 
----
 
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
-
-```
-If you use this work, please cite:
-
-@project{MultiFedX-DiabMor,
-  title   = {Privacy-Preserving Federated Learning for Diabetes Prediction
-             with Explainable AI},
-  year    = {2026},
-  url     = {https://github.com/raguig/MultiFedX-DiabMor},
-  note    = {Combines FL + DP-SGD + SHAP/LRP for privacy-compliant healthcare ML}
-}
-```
-
----
-
-<div align="center">
-
-**Last Updated:** February 2026 · **Status:** ✅ Complete (Proof-of-Concept v1.0)
-
-</div>
