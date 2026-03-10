@@ -612,51 +612,6 @@ streamlit run diabetes_demo.py
 
 ---
 
-## 🔐 Security & Privacy Considerations
-
-### Threat Model
-
-| Attack | Description | Defense | Our Status |
-|--------|-------------|---------|------------|
-| **Membership Inference** | "Was patient X in the training data?" | DP-SGD bounds attacker advantage to e^ε | ✅ ε ≈ 3 |
-| **Model Inversion** | "Reconstruct patient features from model" | Noisy gradients prevent exact reconstruction | ✅ Protected |
-| **Gradient Leakage** | "Intercept FL updates to read raw gradients" | Secure aggregation (cryptographic) | ⚠️ Simplified (assumes honest server) |
-
-### Regulatory Compliance
-
-| Regulation | Requirement | Status |
-|-----------|-------------|--------|
-| **HIPAA** | No centralized data storage | ✅ Data stays at each client |
-| **HIPAA** | Encryption of health data | ✅ Local training only |
-| **GDPR** | Right to be forgotten | ✅ Remove client from next FL round |
-| **GDPR** | Privacy by design | ✅ DP-SGD is built-in |
-| **GDPR** | Individual explanations | ✅ SHAP/LRP per patient |
-
----
-
-## 🏆 Project Achievements
-
-| Achievement | Details |
-|-------------|---------|
-| ✅ **End-to-End Privacy-Preserving ML** | FL + DP-SGD = no data centralization + mathematical privacy guarantees |
-| ✅ **Advanced Dual XAI** | SHAP (feature-level) + LRP (neuron-level) with cross-method validation |
-| ✅ **Realistic Heterogeneity Study** | Non-IID analysis with Dirichlet α ∈ {10, 0.5, 0.1} across 5 clients |
-| ✅ **Quantified Privacy–Utility Trade-off** | ε ≈ 3 costs only 2.59 pp accuracy — viable for healthcare |
-| ✅ **Production-Ready Interface** | Interactive Streamlit app with what-if scenarios and privacy dashboard |
-| ✅ **Clinical Alignment** | Model feature importance matches established medical knowledge |
-
----
-
-## 🔮 Future Enhancements
-
-1. **Secure Aggregation** — Add homomorphic encryption for untrusted server scenarios
-2. **Personalized FL** — Per-client adaptation (FedProx, Per-FedAvg) for extreme non-IID
-3. **Multi-Modal Data** — Incorporate imaging (retinopathy), time-series (glucose monitors), and genetic data
-4. **Causal Inference** — Move beyond correlation to answer *"Does glucose directly cause diabetes onset?"*
-5. **Continual Learning** — Model adapts to new patient cohorts with concept drift detection
-
----
-
 ## ⚠️ Important Disclaimers
 
 > **🔴 NOT A MEDICAL DEVICE**
