@@ -625,10 +625,6 @@ streamlit run diabetes_demo.py
 > - Missing data encoded as zeros in several features (BloodPressure, SkinThickness, Insulin)
 > - Single population (Pima Indians women) — results may not generalize to other demographics
 
-> **🔧 PRODUCTION READINESS**
-> - Current implementation is a **proof-of-concept**
-> - For production deployment: validate on external cohorts, obtain IRB approval, implement secure aggregation, add audit trails, and establish continuous monitoring
-
 ---
 
 
